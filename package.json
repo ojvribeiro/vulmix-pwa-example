@@ -8,6 +8,6 @@
     "serve": "vulxi serve"
   },
   "dependencies": {
-    "vulmix": "preview"
+    "vulmix": "0.7.0-preview.24"
   }
 }
