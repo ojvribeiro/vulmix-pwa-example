@@ -1,5 +1,6 @@
 {
   "name": "Vulmix PWA App",
+  "short_name": "Vulmix PWA",
   "display": "standalone",
   "start_url": "https://vulmix-pwa-example.vercel.app/",
   "icons": [

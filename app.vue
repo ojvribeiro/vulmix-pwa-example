@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div>
-      <img src="/icons/192.png" alt="Vulmix" />
+      <img src="/icons/192.png" alt="Vulmix" width="192" height="192"/>
       <h1>Hello, {{ msg }}</h1>
       <button @click="count++">Count: {{ count }}</button>
     </div>
