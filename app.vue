@@ -40,7 +40,7 @@ body {
 }
 
 .content button {
-  background-color: #4caf50;
+  background-color: #439e46;
   color: white;
   padding: 10px 20px;
   border: none;
