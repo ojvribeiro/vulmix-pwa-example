@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div>
-      <img src="/icons/192.png" alt="Vulmix" width="192" height="192"/>
+      <img src="/icons/192.png" alt="Vulmix" width="192" height="192" />
       <h1>Hello, {{ msg }}</h1>
       <button @click="count++">Count: {{ count }}</button>
     </div>
@@ -9,9 +9,9 @@
 </template>
 
 <script setup lang="ts">
-  useHead({
-    title: "Vulmix PWA App",
-  })
+useHead({
+  title: "Vulmix PWA App",
+});
 
 const msg = ref("Vulmix!");
 const count = ref(0);
@@ -23,14 +23,12 @@ body {
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  display: grid;
-  place-items: center;
-  height: 100vh;
 }
 
 .content {
   text-align: center;
   height: 100%;
+  width: 100%;
   display: grid;
   place-items: center;
 }
