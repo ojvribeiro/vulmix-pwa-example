@@ -1,7 +1,7 @@
 {
   "name": "Vulmix PWA App",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "https://vulmix-pwa-example.vercel.app/",
   "icons": [
     {
       "src": "./icons/192.png",
