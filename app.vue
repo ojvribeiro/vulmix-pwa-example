@@ -3,6 +3,7 @@
     <div>
       <img src="/icons/192.png" alt="Vulmix" />
       <h1>Hello, {{ msg }}</h1>
+      <button @click="count++">Count: {{ count }}</button>
     </div>
   </div>
 </template>
@@ -13,6 +14,7 @@
   })
 
 const msg = ref("Vulmix!");
+const count = ref(0);
 </script>
 
 <style>
@@ -37,5 +39,15 @@ body {
   width: 100px;
   height: 100px;
   margin-bottom: 20px;
+}
+
+.content button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 </style>
