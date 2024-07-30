@@ -1,0 +1,41 @@
+<template>
+  <div class="content">
+    <div>
+      <img src="/icons/192.png" alt="Vulmix" />
+      <h1>Hello, {{ msg }}</h1>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+  useHead({
+    title: "Vulmix PWA App",
+  })
+
+const msg = ref("Vulmix!");
+</script>
+
+<style>
+html,
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.content img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+</style>

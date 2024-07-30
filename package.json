@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "vulmix-app",
+  "scripts": {
+    "prepare": "vulxi prepare",
+    "dev": "vulxi dev",
+    "prod": "vulxi prod",
+    "serve": "vulxi serve"
+  },
+  "dependencies": {
+    "vulmix": "preview"
+  }
+}
